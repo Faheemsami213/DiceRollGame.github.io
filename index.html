@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dice ">
+        <h1> Dice Roll </h1>
+        <h1 class="emoji">🏆</h1>
+        <h3 id = "message" ></h3>
+        <div class="roll">
+            <div class="player1">
+                <h3 class = "playerNum">Player  1</h3>
+                <h3>
+                    Score :  <span class="score1">0</span>
+                </h3>
+              <img src="images/box.ico"  alt="dice" class="die img1 box">
+               
+            </div>
+            <div class="player2">
+                <h3 class = "playerNum">Player 2</h3>
+
+                <h3>
+                    Score :  <span class="score2">0</span>
+                </h3>
+              <img src="images/box.ico" alt="dice" class="die img2 box">
+
+            </div>
+        </div>
+
+        <button id="startGameBtn">  Play Dice 🎲</button>
+        <button id="resetBtn" style="display: none;">Play Again</button>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>

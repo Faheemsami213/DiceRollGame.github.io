@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&display=swap');
+body{
+    
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0e37a8, #250480);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #347abd, #c45abe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "poppins";
+
+}
+/* .scale{
+    border:2px solid  white;
+    display: block;
+} */
+.dice{
+  
+border: 2px solid rgb(201, 188, 188);
+  
+width: 19em;
+  
+padding: 37px 55px;
+  
+height: 391px;
+  
+border-radius:24px;
+  
+position: absolute;
+  
+transform: translate(-50%,-50%);
+  
+top:50%;
+  
+left: 50%;
+  
+text-align: center;
+  
+background-size: cover;
+  
+display: flex;
+  
+flex-direction: column;
+  
+background-image: url("images/diceBackgroound1.png");
+  
+background-size: cover;
+  
+background-position: bottom center;
+}
+h1{
+    margin-top: 0;
+    font-size: 40px;
+    color: #f2b5c9;
+}
+#message{
+    font-size: 24px;
+    font-family: "Pacifico";
+}
+.roll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17em;
+    padding: 6px;
+}
+.roll2{
+    display: none;
+}
+.emoji{
+    display:none;
+    font-size: 105px;
+    margin-bottom: 0;
+}
+.playerNum{
+    color: #4c216c;
+    font-size: 22px;
+}
+.player1,.player2{
+    width: 8em;
+ 
+
+    
+}
+
+h3{
+    font-size: 18px;
+    margin-top: 0;
+    font-family: "Pacifico";
+    color: rgb(242 181 201);
+
+}
+.die{
+    width: 120px;
+    height: 120px;
+    
+    
+}
+.box{ 
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+}
+
+
+button{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px 0;
+    outline: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-top: 2   0px;
+      /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.shake{
+    animation: shake 0.5s  infinite;
+}
+@keyframes shake {
+    0%{
+        transform: rotate(8deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+
+    }
+    100%  {
+    transform: rotate(8deg);
+    
+}
+    
+}
